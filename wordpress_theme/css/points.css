@@ -1,0 +1,197 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+/* Styles */
+.logo{
+	width:95%;
+}
+.cuenta, .carrito{
+	width:100%;
+}
+
+.navbar{
+	background:#211915;
+}
+
+.navbar .btn-navbar .icon-bar{
+	background-color:#EA8AC2;
+}
+
+/* EN OFERTA*/
+.related_celda{
+	width:80%;
+}
+
+/* EN JUGUETES - CATEGORIAS */
+.celda_categoria{
+	width:90%;
+	margin:1% auto;
+}
+
+/* FORMULARIOS CONTACTOS Y EVENTOS TUPPER*/
+.content-page{
+	width:100%;
+}
+
+.respond{
+	width:100%;
+}
+
+/* FOOTER PIE */
+.footerLeft{
+	width:100%;
+}
+.footerRight{
+	width:100%;
+}
+
+.footer-page{
+	width:90%;
+	margin:1%;
+	display:inline-block;
+	font-size:1.2em;
+}
+
+
+/* --- PORTADA--*/
+.portal_izquierda{
+	width:95%;
+	margin:1% auto;
+}
+
+.portal_derecha{
+	width:98%;
+	margin:1% auto;
+}
+
+.product_list_widget .producto_celda{
+	width:95%;
+	margin:1% auto;
+}
+.panel{
+	margin-top:1%;
+}
+
+.boton_portada{
+	width:90%;
+}
+
+
+/* --- PRODUCTO SINGLE -----------------------------*/
+
+.cuadro{
+	width:95%;
+}
+
+.product-description{
+	width:100%;
+	font-size:1.1em;
+}
+
+/* EN JUGUETES - CATEGORIAS */
+.celda_categoria{
+	width:45%;
+	margin:1% auto;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+@media only screen and (min-width: 490px) and (max-width: 979px) and (orientation : portrait) {
+
+.logo{
+	width:95%;
+}
+
+
+.cuenta, .carrito{
+	width:50%;
+}
+
+.navbar{
+	background:#211915;
+}
+
+/* --- PORTADA--*/
+.portal_izquierda{
+	width:95%;
+	margin:1% auto;
+}
+
+.portal_derecha{
+	width:99%;
+	margin:1%;
+}
+
+.product_list_widget .producto_celda{
+	width:43%;
+	margin:1%;
+}
+.panel{
+	margin-top:1%;
+}
+
+.boton_portada{
+	width:80%;
+}
+
+
+/* EN JUGUETES - CATEGORIAS */
+.celda_categoria{
+	width:45%;
+	margin:1% auto;
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-device-width : 850px) and (max-device-width : 1024px) {
+/* Styles */
+/* PORTADA -------------*/
+.product_list_widget .producto_celda{
+	width:95%;
+	margin:1%;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

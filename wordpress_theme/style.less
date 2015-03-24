@@ -1,0 +1,320 @@
+/*
+	Theme name: Wonderland
+	Theme URI: http://okzen.com
+	Version: 1.0
+	Author: OkZen
+*/
+
+/*
+VARIABLES
+*/
+
+@bgcolor:#95a5a6;
+@cabeceracolor:#2ecc71;
+@cloudcolor:#ecf0f1;
+@secondarycolor:#27ae60;
+@otrocolor:#95a5a6;
+
+@colorheader:#fff;
+
+
+//============================================
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+ 
+  font-family: helvetica, arial;
+  height: auto;
+  width:100%;
+ 
+
+}
+
+.clear{
+
+  clear:both;
+}
+
+a{
+  color:#fff;
+  text-decoration: none;
+}
+
+header {
+  background: @colorheader;
+  max-height: 30px;
+  width: 80%;
+  margin: 0 auto;
+  position:relative;
+  
+ 
+}
+
+header .logo{
+  color:#fff;
+  float:left;
+  width:30%;
+  display:inline; 
+}
+
+header .cuentauser{
+  float:left;
+  width:30%;
+  display:inline;
+  background:green;
+}
+
+header .carrito{
+  float:left;
+  width:30%;
+  display:inline;
+  background:red;
+
+}
+
+.acuenta{
+  color:#fff;
+}
+
+a.carrito{
+  color:#fff:
+}
+
+
+
+.topmenu{
+  position:relative;
+  width:80%;
+  background:none;
+ 
+  color:#fff;
+}
+
+.menu_top{
+  margin-left:5%;
+  width:90%;
+}
+
+.menu_top li a{
+  color:#fff;
+  font-size:1.3em;
+
+  transition: all 1.5s ease;
+}
+
+.menu_top li a:hover{
+  
+  color:@secondarycolor;
+
+}
+.container {
+  background:@cloudcolor; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  height: 100%;
+  color: #fff;
+  margin-top:70px;
+  position: relative;
+}
+
+.aside{
+  width:20%;
+  background:@cabeceracolor;
+  color:white;
+  float: right;
+  margin:0 5%;
+  padding:1em;
+  text-align: center;
+
+
+   
+}
+
+.aside ul li{
+  list-style-type: none;
+}
+
+
+.loop{
+
+  float: left;
+  margin: 0 auto;
+  width: 65%;
+}
+.article {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 1%;
+  float: left;
+  background:@bgcolor;
+  color:#868686;
+}
+
+figure.fig_portada{
+
+}
+
+.titulo_post{
+  font-size: 2.5em;
+  margin: 20px 0 20px;
+}
+img.attachment-large{
+  width:100%;
+  heigth:100%;
+  overflow:hidden;
+  
+}
+a.readmore {
+  background:@cabeceracolor;
+  
+  width:5%;
+  padding:20px 5px;
+  text-decoration: none;
+  color:#fff;
+  float: right;
+  margin:0 auto;
+
+  transition: all 1.5s ease;
+
+}
+
+a:hover {
+  color: #249847;
+}
+
+a.readmore:hover{
+  background:#fff;
+
+}
+.top {
+  height: auto;
+  margin: 1% auto;
+}
+.menu_top {
+  height: 30px;
+}
+
+.menu_top ul{
+	display: inline;
+}
+.menu_top ul li{
+  display: inline;
+}
+.menu_top ul li a {
+  padding: 10px 20px 10px 20px;
+  
+}
+
+.paginate{
+ 
+  padding:3px;
+  color:#fff;
+}
+.footer {
+  background: @cabeceracolor;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  font-size: 0.8rem;
+  float: left;
+  min-height: 200px;
+  margin-bottom: 0;
+}
+/* ===========================  MEDIA QUERIES ==============================================  */
+@media screen and (max-width:1020px){
+  .section{
+    width:100%;
+    background:red;
+  }
+
+  .aside{
+    background:yellow;
+    width:20%;
+    margin:0 40%;
+    float: left;
+    border:1ps solid #000;
+    color:#000;
+  }
+}
+
+@media screen and (max-width:700px){
+  .section{
+    width:60%;
+    background:white;
+    color:#868686;
+  }
+
+  .aside{
+    background:black;
+    width: 30%;
+    display:inline-block;
+    color:#f2f2f2;
+  }
+
+  .article{
+    width:90%;
+  }
+}
+
+@media screen and (max-width:480px){
+  
+  .container{
+    padding:0;
+  }
+
+  .section{
+    width:100%;
+    margin:0;
+    color:#000;
+  }
+
+  .aside{
+    width:98%;
+    margin:1%;
+
+  }
+
+  .article{
+    width:95%;
+  }
+}
+
+// PAGINATION ------------------
+
+.pagination {
+clear:both;
+padding:20px 0;
+position:relative;
+font-size:0.8em;
+line-height:13px;
+}
+
+.pagination span, .pagination a {
+display:block;
+float:left;
+margin: 2px 2px 2px 0;
+padding:7px 10px 6px 10px;
+text-decoration:none;
+width:auto;
+color:#fff;
+background: @cabeceracolor;
+}
+
+.pagination a:hover{
+color:#fff;
+background: @otrocolor;
+}
+
+.pagination .current{
+padding:7px 10px 6px 10px;
+background: @otrocolor;
+color:#fff;
+}

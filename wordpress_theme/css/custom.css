@@ -1,0 +1,633 @@
+
+#sidebar h4{
+	display:none;
+}
+
+.product_list_widget{
+	overflow: hidden;
+	list-style: none;
+	width:100%;
+}
+
+
+del span.amount{
+	display:none;
+}
+
+.producto_celda{
+	width:45%;
+	min-height: 220px;
+	float:left;
+	display:inline;
+	background:#fff;
+	margin:1% 2%;
+	border-radius: 5px;
+	margin-bottom:3%;
+	position:relative;
+	
+}
+
+.producto_caja{
+	margin:0 auto;
+	width:50%;
+	padding-top:15%;
+	min-height: 180px;
+	max-height: 220px;
+	position:relative;
+	
+}
+
+a.producto_imagen{
+	margin:0 auto;
+}
+
+a.producto_imagen img{
+	margin:0 auto;
+	width:85%;
+}
+
+.pie_izquierdo{
+	width:75%;
+	position:relative;
+	float:left;
+}
+
+.pie_derecho{
+	width:20%;
+	position:relative;
+	float:right;
+	background-image: url('../zensentidos/img/flechaMorada.png');
+	min-width: 15px;
+	min-height: 20px;
+}
+
+.producto_pie{
+	background-image: url('../img/pie.png');
+	background-repeat: repeat-x;
+	border-radius:0 0 5px 5px;
+	min-height:3.2em;
+	padding:4%;
+
+
+}
+
+.titulo_producto{
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	font-weight: 600;
+}
+
+.titulo_categoria{
+	margin:0;
+	padding:0;
+	font-weight: 400;
+	font-size:0.7em;
+	display:block;
+	color:#d289be!important;
+	line-height: 1.5em;
+
+	
+}
+
+
+
+.titulo_precio {
+	font-size: 2.3em;
+	color:#fff;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.1em;
+	font-weight: 500;
+	position:relative;
+}
+
+.flecha{
+	
+	max-width:20px;
+	min-height: 10px;
+	color:black;
+	position:relative;
+	float:right;
+	bottom:10px;
+	right: 90px;
+	background-image: url('../zensentidos/img/flechaMorada.png') #000;
+}
+
+/* ------------ CATEGORY PAGE --------------------  */
+.categoria_titulo{
+	font-size:1.1em;
+	color:#EA8AC2;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 0.9em;
+	font-weight: 300;
+	vertical-align:middle;
+}
+
+.celda_categoria{
+	width:23%;
+	position:relative;
+	min-height: 230px;
+	float:left;
+	display:inline;
+	background:#fff;
+	margin:1px 1%;
+	border-radius: 5px;
+	margin-bottom:1%;
+}
+
+.categoria_caja{
+	margin: 0 auto;
+	vertical-align: middle;
+	width:42%; 
+	padding-top: 12%;
+	min-height: 185px;
+	position:relative;
+}
+
+
+/*-- ----------------------- PAGINATION CATEGORY  --------------- --*/
+
+div.wp-pagenavi{
+	
+}
+span.pages{
+	background: url('../zensentidos/img/botones/fondoboton.png') !important;
+	display:inline-block;
+}
+
+
+/*-- --------------------- DETALLE PRODUCTO ----------------- --*/
+.product_title{
+	color:#EA8AC2;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+/*-- SINGLE PRODUCT*/
+.singlepanel{
+	background-color:#FFF;
+	padding:2% 2%;
+	margin-bottom:5%;
+	margin-top:1%;
+	}
+
+.singlepanel h5{
+	color:#DB4984;
+}
+.singlepanel .descripcionProducto{
+	padding:2em;
+	font-size:1em;
+	}
+	.singlepanel .imagenProducto{
+	padding:10px;
+	
+	}
+	.singlepanel .price {
+		font-size: 2.3em;
+	color:#694660;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.1em;
+	font-weight: 300;
+	padding:5px 10px;
+		}
+.cuadro{
+	position:relative;
+
+}
+.enoferta{
+	position:absolute;
+	top:15px;
+	left:-35px;
+	width:45%;
+}
+
+.enoferta2{
+	position:absolute;
+	
+	left:0px;
+	width:100%;
+}
+/* ------------- AÑADIR CARRITO DEL DETALLE PRODUCTO ---------------*/
+.input-text{
+	width:30%;
+}
+
+input.single_add_to_cart_button{
+	
+	padding: 0.5em 2.1em;
+	cursor: pointer;
+	border: none;
+	border-radius: 6px;
+	background-image: url('../../zensentidos/img/botones/fondoboton.png');
+	background-size: 100% 100%;
+	color:#fff;
+}
+
+/* ---- VARIACIONES DE COLOR Y OTROS ATRIBUTOS -------*/
+.variaciones{
+	width:40% !important;
+}
+
+select.color option.item_variations{
+	margin:40px;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+a.reset_variations{
+	color:#EA8AC2;
+}
+
+.atributo{
+	color:#694660;
+}
+
+/* - --------------  PRODUCTOS RELATEDS ----------- QUE TE PUEDEN INTERESAR ------- */
+.related_celda{
+	width:30%;
+	float:left;
+	display:inline;
+	
+	margin:1% 2%;
+	border-radius: 5px;
+	margin-bottom:3%;
+	background:#fff;
+
+}
+
+.related_imagen{
+	position:relative;
+	vertical-align: middle;
+	width:35%; 
+	height:100%;
+	display:inline;
+	margin:2%;
+	background:#fff;
+	
+}
+
+.related_imagen a{
+	width:100%;
+	height:100%;
+}
+
+.related_imagen img{
+	width:25%;
+	margin:2%;
+
+}
+
+.related_pie{
+	float:right;
+	width:55%;
+	margin:0;
+	background-image: url('../img/pie.png');
+	background-repeat: repeat-x;
+	background-size:100% auto;
+	min-height:83px;
+	height:101%;
+	padding:5% 5px 4px 5px;
+	position:relative;
+	border-radius:0 5px 5px 0;
+}
+
+.related_titulo{
+	color:#fff;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.price{
+	font-size: 2.3em;
+	color:#fff;
+	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.1em;
+	font-weight: 300;
+}
+
+.related_flecha{
+	position:absolute;
+	bottom:25px;
+	right:20px;
+}
+
+/* ---------- BOTONES DE SHARE, TWITTER Y FACEBOOK ------*/
+.twitter_boton{
+	color: white;
+	padding: 5px 10px;
+	background-image: url('../../zensentidos/img/botones/twitterfondoboton.png') ;
+	max-width:40%;
+	background-size:100% 100%;
+	margin:0 0 5px 5px;
+	line-height: 1.1em;
+	font-size: 0.8em;
+	vertical-align: middle;
+	text-align: center;
+	border-radius:5px;
+	display:inline-block;
+}
+
+.facebook_boton{
+	color: white;
+	padding: 5px 10px;
+	background-image: url('../../zensentidos/img/botones/facebookfondoboton.png') ;
+	max-width:40%;
+	background-size:100% 100%;
+	margin:0 0 5px 5px;
+	line-height: 1.1em;
+	font-size: 0.8em;
+	vertical-align: middle;
+	text-align: center;
+	border-radius:5px;
+	display:inline-block;
+}
+
+/* -------- CARRO DE LA COMPRA  -------------------   */
+.cart_table_item{
+	background:#fff;
+	margin:2%;
+	position:relative;
+	height: auto;
+	overflow: hidden;
+	max-height:120px;
+}
+
+hr.total{
+	color:red;
+}
+
+.product-image, .product-name, .product-price, .product-price, .product-quantity, .product-subtotal, 
+.product-remove{
+	display:inline-block;
+	
+	
+}
+
+.product-image a img{
+	vertical-align: middle;
+	
+}
+
+.product-name{
+	min-width:20%;
+	padding:1%;
+}
+
+.product-name a{
+	color:#DB4984;
+	font-weight: 800;
+}
+
+td.product-subtotal{
+	width:30%;
+}
+.product-subtotal span.amount{ 
+	color:#DB4984;
+	font-weight: 400;
+	font-size:1.8em;
+}
+
+.product-remove a{
+	color:#694660;
+	font-size: 1.2em;
+}
+
+.product-remove a:hover{
+	color:grey;
+}
+
+.linea-total{
+	width:100%;
+}
+
+.linea{
+	width:100%;
+	border-top:2px solid #DB4984;
+	margin:1% 0;
+}
+
+
+
+.actions{
+	
+	width:100%;
+	float:right;
+}
+
+.celda{
+	margin: 1%;
+	position: relative;
+	
+	overflow: hidden;
+}
+
+.margen{
+	width:60%;
+}
+
+input.botones-carro{
+	margin-left:5%;
+	padding:0.3em 0.9em;
+	cursor:pointer;
+  	border: none;
+	border-radius:6px;
+	background-image: url('../../zensentidos/img/botones/fondoboton.png') ;
+	background-size: 100% 100%;
+	display:inline-block;
+	color:#fff;
+	float:right;
+}
+
+div.post h2{
+	color:#EA8AC2;
+}
+
+tr.cart-subtotal th strong{
+	color:#EA8AC2;
+	margin:0 1%;
+}
+
+tr.total th strong{
+	color:#EA8AC2;
+	margin:0 1%;
+}
+
+ul.payment_methods{
+	list-style-type: none;
+}
+
+ul.order_details{
+	list-style-type:none;
+}
+
+.panel{padding:1%;
+	margin-bottom:2em;
+}
+
+/* ---------- para el account mi cuenta ----------------*/
+.order-number, .order-date, .order-status, .order-total, .order-actions{
+	width:20%;
+	text-align: center;
+}
+
+input.logueo{
+	margin:2px !important;
+	
+}
+
+/* widget en oferta ---------------------------------*/
+
+.enoferta-widget{
+	position:absolute;
+	top:12px;
+	left:-25px;
+}
+
+.enoferta-widget img{
+	width:38%;
+}
+
+.enoferta-producto{
+	position:absolute;
+	top:0px;
+	left:0px;
+
+}
+
+.enoferta-producto img{
+	width:45%;
+}
+
+/*--------- SELECT DE CATEGORIA*/
+select.orderby{
+	float:right;
+	margin:1%;
+	background-image: url('../../zensentidos/img/botones/fondoboton.png') ;
+	background-size:100% 99%;
+	color:#fff;
+}
+
+select.orderby option{
+	color:#000;
+}
+
+
+/* -----  FOOTER ------- */
+.footer-page{
+	display:inline;
+	margin:1%;
+}
+
+/* --  HEADER CUENTA Y CARRITO*/
+a.cart-contents, a.acarrito{
+	color:#fff !important;
+}
+
+/* ----  SLIDER DE PORTADA -------*/
+.slider-portada{
+	padding:0 10px;
+}
+
+
+/* ----- PORTADA REDES SOCIALES */
+.redes_sociales{
+	margin:5%;
+	width:100%;
+	float:left;
+
+}
+
+/* ---- NUEVO TITULO ----- */
+.titulo{
+	width:95%;
+	margin:0 auto;	
+}
+
+.titulo_fondo{
+		background-image: url('../../zensentidos/img/titulo.png') ;
+		background-size:100% 100%;
+		min-width:100%;
+		min-height: 1%;
+}
+
+/* --  boton de ofertas en la portada*/
+.boton_portada{
+	width:46%;
+	margin:0 10% 5% 30% !important;
+}
+
+.boton_ofertas{
+	font-size: 1.3em;
+	padding:7px 12px;
+	color:#6a4860;
+	margin:auto;
+	font-weight: 800;
+	vertical-align: middle;
+}
+
+/* -- BOTONES DE GUIA DE COMPRA*/
+.boton_guia{
+	margin:3%;
+	margin-left:10%;
+	width:50%;
+	
+	padding:5px 15px;
+
+	color: white;
+	
+	background-image: url('../../zensentidos/img/botones/fondoboton.png') ;
+	background-size: 100% 100%;
+
+	
+	line-height: 1.7em;
+	font-size: 0.8em;
+	vertical-align: middle;
+	position:relative;
+}
+
+.ordinal{
+	font-size: 1.4em;
+}
+
+.guia{
+	font-size:0.7em;
+	vertical-align: middle;
+	display:inline-block;
+}
+
+.guia_flecha{
+	position:absolute;
+	float:right;
+	background-image: url('../zensentidos/img/flechaGr.png');
+	width:30%;
+	top:4px;
+	left:80%;
+
+}
+
+.guia_flecha a img{
+	vertical-align: middle;
+	max-height:20px;
+}
+
+.texto-portada{
+	width:90%;
+	margin:0 auto;
+}
+
+/* -- SINGLE PRODUCT ----*/
+.single-product{
+	margin:0 1%;
+}
+
+/* ---  INDEX --- */
+.entrytext{
+	margin-left:5%;
+}
+
+/* --- MARGEN ----*/
+.margen-abajo{
+	margin-bottom:5%;
+}
